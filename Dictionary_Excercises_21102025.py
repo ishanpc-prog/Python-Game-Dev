@@ -2,6 +2,7 @@ print("Task 1")
 students_dict = {"Bob": 12,"Laura": 14,"Billy": 13}
 print(students_dict)
 students_dict["Sarah"] = 11
+print(students_dict) 
 print("")
 
 print("Task 2")
