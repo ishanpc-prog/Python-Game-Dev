@@ -1,0 +1,26 @@
+import pgzrun
+WIDTH = 500
+HEIGHT = 500
+def draw():
+    screen.clear()
+    screen.draw.line((50,250),(250,250),"red")
+    screen.draw.line((250,250),(250,450),"red")
+    screen.draw.line((250,450),(50,450),"red")
+    screen.draw.line((50,450),(50,250),"red")
+    screen.draw.line((50,250),(150,100),"red")
+    screen.draw.line((150,100),(250,250),"red")
+    screen.draw.line((75,275),(125,275),"red")
+    screen.draw.line((125,275),(125,325),"red")
+    screen.draw.line((125,325),(75,325),"red")
+    screen.draw.line((75,325),(75,275),"red")
+    screen.draw.line((75,325),(75,300),"red")
+    screen.draw.line((75,300),(125,300),"red")
+    screen.draw.line((125,300),(100,300),"red")
+    screen.draw.line((100,300),(100,325),"red")
+    screen.draw.line((100,325),(100,275),"red")
+    screen.draw.line((250,450),(150,450),"red")
+    screen.draw.line((150,450),(150,375),"red")
+    screen.draw.line((150,375),(200,375),"red")
+    screen.draw.line((200,375),(200,450),"red")
+    screen.draw.circle((165,415),5,"red")
+pgzrun.go()
