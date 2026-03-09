@@ -23,9 +23,9 @@ def update():
     global score
     item.y = item.y + 4
     if keyboard.left:
-        trashbin.x = trashbin.x - 2
+        trashbin.x = trashbin.x - 5
     if keyboard.right:
-        trashbin.x = trashbin.x + 2
+        trashbin.x = trashbin.x + 5
     if trashbin.colliderect(item):
         if item.image == "bee":
             score = score + 10 
@@ -38,4 +38,5 @@ def update():
     if item.y > HEIGHT:
         item = Actor(random.choice(items))
         item.pos =random.randint(50,550),0   
+
 pgzrun.go()
