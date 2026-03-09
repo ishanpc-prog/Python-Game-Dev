@@ -38,5 +38,4 @@ def update():
     if item.y > HEIGHT:
         item = Actor(random.choice(items))
         item.pos =random.randint(50,550),0   
-
 pgzrun.go()
